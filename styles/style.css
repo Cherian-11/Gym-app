@@ -272,7 +272,7 @@ nav ul li a:hover {
     background: #807578;
     border: none;
     border-radius: 6px;
-    padding: 10px 5px;
+    padding: 10px 15px;
     min-width: 80px;
     color:white;
     cursor: pointer;
@@ -326,7 +326,7 @@ a {
 }
 
 #log_out {
-    background: #000;
+    background: #807578;
     border: none;
     border-radius: 6px;
     padding: 10px 5px;
