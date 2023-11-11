@@ -270,10 +270,10 @@ nav ul li a:hover {
 
 .login {
 	text-decoration: none;
-	margin-right: 30px;
-	margin-top: 40px;
-	font-size: 18px;
-	background: transparent;
+	margin-left: 30px;
+	margin-top: 140px;
+	font-size: 25px;
+	background: #f9004d;
 	color: white;
 	border: none;
 	cursor: pointer;
