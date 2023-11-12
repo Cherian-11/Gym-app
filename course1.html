@@ -53,32 +53,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="video-container">
-            <video id="videoPlayer" controls>
-                <source id="videoSource" src="" type="video/mp4">
-            </video>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="progress-bar">
-            <div class="progress" style="width: 0;"></div>
-        </div>
-        <div class="button-container">
-            <button id="button1">DAY 1</button>
-            <button id="button2">DAY 2</button>
-            <button id="button3">DAY 3</button>
-            <button id="button4">DAY 4</button>
-            <button id="button5">DAY 5</button>
-            <button id="completeButton">Complete Task</button>
-        </div>
-    </div>
+    
     <script>
         const progressBar = document.querySelector('.progress');
 
@@ -88,7 +63,6 @@
         document.getElementById('button1').addEventListener('click', function() {
             document.getElementById('videoSource').src = 'video1.mp4';
             document.getElementById('videoPlayer').load();
-            document.getElementById("myVideo").width = "500";
             progress += increment;
             progressBar.style.width = `${progress}%`;
         });
@@ -126,5 +100,31 @@
             // You can add additional actions here after task completion
         });
     </script>
+    <div class="container">
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                <source id="videoSource" src="" type="video/mp4">
+            </video>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="progress-bar">
+            <div class="progress" style="width: 0;"></div>
+        </div>
+        <div class="button-container">
+            <button id="button1">DAY 1</button>
+            <button id="button2">DAY 2</button>
+            <button id="button3">DAY 3</button>
+            <button id="button4">DAY 4</button>
+            <button id="button5">DAY 5</button>
+            <button id="completeButton">Complete Task</button>
+        </div>
+    </div>
 </body>
 </html>
