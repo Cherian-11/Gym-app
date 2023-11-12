@@ -300,7 +300,15 @@ nav ul li a:hover {
 	margin-top: 10px;
 	line-height: 25px;
 }
-
+.content a {
+	background: #f9004d;
+        border: none;
+        border-radius: 6px;
+	font-size: 60px;
+        min-width: 180px;
+        color:white;
+        cursor: pointer;
+{
 a {
     color: #fff;
 }
