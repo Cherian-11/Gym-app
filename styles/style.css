@@ -302,12 +302,7 @@ nav ul li a:hover {
 }
 
 a {
-    background: #f9004d;
-    border: none;
-    border-radius: 6px;
-    min-width: 180px;
-    color:white;
-    cursor: pointer;
+    color: #fff;
 }
 
 .link {
