@@ -88,6 +88,7 @@
         document.getElementById('button1').addEventListener('click', function() {
             document.getElementById('videoSource').src = 'video1.mp4';
             document.getElementById('videoPlayer').load();
+            document.getElementById("myVideo").width = "500";
             progress += increment;
             progressBar.style.width = `${progress}%`;
         });
