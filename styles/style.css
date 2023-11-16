@@ -214,6 +214,24 @@ section {
 	}
 }
 
+@media (max-width: 500px) {
+
+	.menu{
+		position: absolute;
+		background: #00000069;
+		backdrop-filter: blur(11px);
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		left: 0;
+		top: 0;
+		padding-top: 20px;
+		height: 100%;
+		gap: 20px;
+	}
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -244,7 +262,7 @@ nav {
 }
 
 .logo a {
-	font-size: 60px;
+	font-size: 30px;
 	text-decoration: none;
 }
 
